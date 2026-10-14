@@ -1,0 +1,28 @@
+# ===== 数据与模型权重（大文件，不放 GitHub）=====
+train_npz/
+checkpoints/
+output/
+predictions/
+*.pth
+*.pt
+*.ckpt
+*.nii
+*.nii.gz
+*.npz
+*.h5
+*.onnx
+
+# ===== IDE / 缓存 =====
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+
+# ===== 密钥与本地配置 =====
+.env
+*.env
